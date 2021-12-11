@@ -1,0 +1,24 @@
+{
+  "name": "rabbitmq",
+  "version": "1.0.0",
+  "description": "This is the template project to mimic the message send",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "rabbitmq",
+    "node"
+  ],
+  "author": "Digvijay Wadkar",
+  "license": "ISC",
+  "dependencies": {
+    "http-rabbitmq-manager": "0.0.4",
+    "amqplib": "^0.6.0",
+    "body-parser": "^1.19.0",
+    "config": "^3.3.1",
+    "express": "^4.17.1",
+    "path": "^0.12.7"
+  }
+}
